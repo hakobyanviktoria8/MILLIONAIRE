@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    margin: 10px auto ;
+    height: 700px;
+    position: relative;
+}
+/*main content*/
+.main{
+    width: 75%;
+    height: 700px;
+    display: inline-block;
+    background-color: #190be8;
+    position: absolute;
+}
+.btn img{
+    width: 100px;
+    margin: 10px 0;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+}
+#fifty{
+    left: 25px;
+}
+#people{
+    left: 140px;
+}
+#phone{
+    left: 260px;
+}
+.btn img:hover{
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+}
+#btnLogo{
+    width: 370px;
+    position: absolute;
+    top: 130px;
+    left: 185px;
+}
+.btnNo, #btnYes{
+    width: 150px;
+    font-size: 30px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#btnYes{
+    background-color: #1aff0e;
+}
+#btnYes:hover, .btnNo:hover{
+    transform: scale(1.05, 1.05);
+}
+#text {
+    width: 700px;
+    position: absolute;
+    padding: 15px;
+    top: 420px;
+    left: 24px;
+    font-size: 30px;
+    color: white;
+    height: 250px;
+}
+/*aside*/
+.aside ol{
+    color: white;
+    font-size: 30px;
+    padding: 6px;
+    margin: 20px 60px;
+}
+.aside ol li{
+    padding: 2px;
+}
+.aside{
+    width: 25%;
+    height: 700px;
+    display: inline-block;
+    background-color: #509be7;
+    position: absolute;
+    right: 5px;
+}
+#gumar{
+    border: 2px solid #190be8;
+    background: white;
+    font-size: 35px;
+    width: 210px;
+    float: right;
+    margin: 20px;
+    text-align: right;
+    padding: 0 5px;
+    color: #180bbd;
+}
+.fixed{
+    color: #6affff;
+}
+/*start*/
+#start {
+    border: 2px solid white;
+    width: 700px;
+    position: absolute;
+    padding: 15px;
+    top: 420px;
+    left: 24px;
+    font-size: 30px;
+    display: none;
+    background: #c1f3ff;
+    height: 250px;
+}
+#harc{
+    border: 2px solid white;
+    padding: 10px;
+    width: 100%;
+    font-size: 30px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+#patasxn button{
+    display: inline-block;
+    border: 1px solid white ;
+    width: 46%;
+    margin: 10px;
+    padding: 7px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 0 20px;
+    outline: none;
+}
+/* dshlichi ognutyun help btn*/
+#dahOgn{
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    background-color: white;
+    margin: 113px auto;
+    border: 1px solid;
+    display: none;
+}
+#one, #two, #three, #four{
+    width: 30px;
+    height: 35px;
+    line-height: 35px;
+    margin: 10px;
+    padding-left: 10px;
+    background-color: #3cf4ff;
+}
+#one{
+    width: 10%;
+}
+#two{
+    width: 15%;
+}
+#three{
+    width: 8%;
+}
+#four{
+    width: 25%;
+}
+h2 {
+    text-align: center;
+}
+#close {
+    font-size: 20px;
+    margin: 3px 28%;
+    padding: 5px 40px;
+}
+/*call friend*/
+#phoneogn{
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    background-color: white;
+    margin: 113px auto;
+    border: 1px solid;
+    display: none;
+    position: relative;
+}
+h2 {
+    text-align: center;
+}
+#phone_circle{
+    width: 200px;
+    height: 200px;
+    background: conic-gradient(red 6%, orange 6% 18%, yellow 18% 45%, green 45% 110%);
+    border-radius: 50%;
+    float: left;
+    margin: 5%;
+}
+#phoneVersion{
+    float: right;
+    margin: 8% 10% 0;
+}
+#phone_one, #phone_two, #phone_three, #phone_four{
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    padding: 0 18px 0 10px;
+}
+#phone_one{
+    background-color: red;
+}
+#phone_two{
+    background-color: orange;
+}
+#phone_three{
+    background-color: yellow;
+}
+#phone_four{
+    background-color: green;
+}
+#phoneClose {
+    font-size: 20px;
+    bottom: 15px;
+    position: absolute;
+    padding: 5px 40px;
+}
